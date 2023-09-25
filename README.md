@@ -10,6 +10,7 @@ A landing page of Mira Clothing brand which is an website made an inspiration fr
 
  - [NURE AFRIN ERA](https://dribbble.com/shots/22444082-Fashion-E-commerce-Website-Designhttps://dribbble.com/nureafrinera) - Designer
  - [Design](https://dribbble.com/shots/22444082-Fashion-E-commerce-Website-Design)
+ - [Result website](https://kanna116.github.io/MIRA-Clothing-online/)
 
 ## Demo
 

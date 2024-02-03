@@ -673,16 +673,16 @@ body{
 }
 
 .category-1{
-    background: linear-gradient(to bottom, transparent, #000000aa), url('Images/categories/category-1.jpeg');
+    background: linear-gradient(to bottom, transparent, #000000aa), url('Images/categories/category-1.webp');
 }
 .category-2{
-    background: linear-gradient(to bottom, transparent, #000000aa),url('Images/categories/category-2.jpeg');
+    background: linear-gradient(to bottom, transparent, #000000aa),url('Images/categories/category-2.webp');
 }
 .category-3{
-    background: linear-gradient(to bottom, transparent, #000000aa),url('Images/categories/category-3.jpeg');
+    background: linear-gradient(to bottom, transparent, #000000aa),url('Images/categories/category-3.webp');
 }
 .category-4{
-    background: linear-gradient(to bottom, transparent, #000000aa),url('Images/categories/category-4.jpeg');
+    background: linear-gradient(to bottom, transparent, #000000aa),url('Images/categories/category-4.webp');
 }
 .main-category{
     background-size: 110%;

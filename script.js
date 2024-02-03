@@ -75,19 +75,19 @@ function gsapAnimations() {
         y: -100,
         duration: .8,
         stagger: .2,
-    })
+    },"heroItems")
     tl.from(".hero-section", {
 
         y: 100,
         opacity: 0,
         duration: .8
-    })
+    },"heroItems")
     tl.from(".hero-title, .scroll-text, .hero-section .shop-now", {
         y: 100,
         opacity: 0,
         duration: .8,
         stagger: .3
-    })
+    },"heroItems")
     tl.from(".elevation-caption", {
         x: -300,
         opacity: 0,

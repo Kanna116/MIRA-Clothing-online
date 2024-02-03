@@ -40,7 +40,7 @@ function percentageLoading() {
             loadPercentage.textContent = load + " %"
             load++;
         }
-    }, 50);
+    }, 20);
 
 }
 percentageLoading();
@@ -62,23 +62,19 @@ function gsapAnimations() {
         duration: 2,
     }, "load")
 
-    tl.from("#percentage", {
-        y: 50,
-        duration: 6,
-    }, "load")
 
 
     tl.to(".loader", {
         y: -100 + "%",
         transformOrigin: "top",
-        duration: 1,
+        duration: 2,
         ease: "power4"
 
     })
     tl.from(' .nav-center,.nav-left, .nav-right', {
         y: -100,
         duration: .8,
-        stagger: .3,
+        stagger: .2,
     })
     tl.from(".hero-section", {
 
@@ -121,12 +117,12 @@ function gsapAnimations() {
     tl.from(".box", {
         height: 0,
         transformOrigin: "top",
-        duration: 2,
+        duration: 1,
         scrollTrigger: {
             trigger: ".box",
-            start: "top 60%",
-            end: "top 40%",
-            scrub: 2,
+            start: "top 80%",
+            end: "top 50%",
+            scrub: 1,
         }
     });
     tl.from(".box-2 p", {

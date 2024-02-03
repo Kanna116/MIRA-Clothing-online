@@ -422,7 +422,8 @@ body{
     overflow: hidden;
 }
 .category-button{
-    width: 15%;
+    width: fit-content;
+    padding: 5px 10px;
     height: 50px;
     border: 2px solid var(--color4);
     border-radius: 50px;

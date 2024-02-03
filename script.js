@@ -40,7 +40,7 @@ function percentageLoading() {
             loadPercentage.textContent = load + " %"
             load++;
         }
-    }, 20);
+    }, 30);
 
 }
 percentageLoading();
@@ -54,7 +54,7 @@ function gsapAnimations() {
 
     tl.from("#overlay", {
         scale: 0,
-        duration: 2,
+        duration: 4,
         delay: 1,
     }, "load")
     tl.from(".letter", {
